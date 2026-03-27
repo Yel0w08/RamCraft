@@ -2,6 +2,7 @@ package net.yel0w.ramcraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.yel0w.ramcraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +21,7 @@ public class RamCraft implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 
 		LOGGER.info("Hello Fabric world!");
-		LOGGER.info("RamCraft is here!");
+		ModItems.registerModItems();
+
 	}
 }
