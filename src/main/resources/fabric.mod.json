@@ -20,6 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.yel0w.ramcraft.RamCraftDataGenerator"
+		],
+		"client":[
+			"net.yel0w.ramcraft.RamCraftClient"
+
 		]
 	},
 	"mixins": [
