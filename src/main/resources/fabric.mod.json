@@ -3,13 +3,13 @@
 	"id": "ramcraft",
 	"version": "${version}",
 	"name": "RamCraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Ramcraft... WIP",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://yel0w08.github.io/RamCraft.website/",
+		"sources": "https://github.com/Yel0w08/RamCraft"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/ramcraft/icon.png",
