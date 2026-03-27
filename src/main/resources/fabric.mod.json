@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Yel0w08/RamCraft"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/ramcraft/icon.png",
+	"icon": "assets/ramcraft/ramcraft_64x64.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
