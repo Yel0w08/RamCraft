@@ -10,7 +10,7 @@ import net.yel0w.ramcraft.RamCraft;
 
 public class ModItems {
 
-    public static final Item SILISIUM = RegisterItems("silicium", new Item(new Item.Settings()));
+    public static final Item SILISIUM_DUST = RegisterItems("silicium_dust", new Item(new Item.Settings()));
 
 
 
@@ -23,7 +23,7 @@ public static void registerModItems()
     RamCraft.LOGGER.info("Registering " + RamCraft.MOD_ID +" Items...");
 
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-        entries.add(SILISIUM);
+        entries.add(SILISIUM_DUST);
     });
 
 }
