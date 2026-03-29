@@ -2,6 +2,7 @@ package net.yel0w.ramcraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.yel0w.ramcraft.item.ModItemGroups;
 import net.yel0w.ramcraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,9 +18,8 @@ public class RamCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
 
+		ModItemGroups.registerItemsGroup();
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
 
