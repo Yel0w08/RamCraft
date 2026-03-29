@@ -1,3 +1,6 @@
 {
-  "item.ramcraft.silicium_dust": "poudre de silicium"
+  "item.ramcraft.silicium_dust": "poudre de Silicium",
+  "item.ramcraft.silicon": "silicone",
+  "item.ramcraft.carbon_dust": "poudre de carbone",
+  "item.ramcraft.transistor": "transistor"
 }
